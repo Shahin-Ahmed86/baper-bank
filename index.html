@@ -13,17 +13,21 @@
         <h1 class="text-5xl text-center mt-32 ">Welcome to My <span class="font-medium text-orange-500">Babar Bank</span> !!</h1>
     </header>
     <main>
-        <section class="bg-green-100 w-3/4 mx-auto mt-11 pb-8">
+        <section class="bg-green-100 w-3/4 mx-auto mt-11 pb-8 ">
             <h3 class="text-2xl mb-6 text-center pt-6"> Please Login</h3>
             <div action="">
-                <input class=" pl-2 border-2 border-gray-300 rounded block mx-auto w-3/4 " type="text" placeholder="Your Email">
+                <!-- Email field  -->
+                <input id="user-email" class=" pl-2 border-2 border-gray-300 rounded block mx-auto w-3/4 " type="text" placeholder="Your Email">
                 <br>
-                 
-                <input class=" block mx-auto border-2 border-gray-300 rounded w-3/4 pl-2" type="password" name="" id="" placeholder="password">
+                 <!-- password field  -->
+                <input id="user-password" class=" block mx-auto border-2 border-gray-300 rounded w-3/4 pl-2" type="password" name="" placeholder="password">
 
-                <button class="mx-auto block mt-6 bg-orange-500 px-4 py-2 rounded text-white font-semibold">submit</button>
+                <!-- submit button  -->
+
+                <button id="login-submit" class="mx-auto block mt-6 bg-orange-500 px-4 py-2 rounded text-white font-semibold">submit</button>
             </div>
         </section>
+        <script src="js/bank.js"></script>
     </main>
 </body>
 </html>
